@@ -1,0 +1,13 @@
+prefix=/home/rohan/Documents/ml assignment/venv
+exec_prefix=/home/rohan/Documents/ml assignment/venv
+libdir=/home/rohan/Documents/ml assignment/venv/lib
+sharedlibdir=/home/rohan/Documents/ml assignment/venv/lib
+includedir=/home/rohan/Documents/ml assignment/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
